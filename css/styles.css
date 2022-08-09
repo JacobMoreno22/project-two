@@ -1,0 +1,18 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+i:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
