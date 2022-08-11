@@ -4,15 +4,84 @@ font-family: 'Ubuntu', sans-serif; */
     box-sizing: border-box;
 }
 
-h1 {
-    font-family: 'Lato', sans-serif;
+.border {
+    border: 2px solid black;
 }
 
+img {
+    float: left;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#aboutbasketball {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+}
+body {
+    background-color: wheat;
+}
+
+div {
+    text-align: center;
+}
 nav {
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 15px;
 }
+
+
+
 i:hover {
     background-color: black;
-    color: white;
+    color: wheat;
     border-radius: 50%;
 }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    font-family: 'lato', sans-serif;
+    margin: 15px;
+  }
