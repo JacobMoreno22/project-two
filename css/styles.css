@@ -3,7 +3,7 @@ font-family: 'lato', sans-serif; */
 * {
   box-sizing: border-box;
 }
-
+/* Home */
 .left {
     float: left;
     width: 50%;
@@ -27,6 +27,7 @@ body {
     height: 100vh;
 }
 
+/* Header/Nav Bar */
 .header {
   overflow: hidden;
   background-color: white;
@@ -70,6 +71,7 @@ body {
   }
 }
 
+/* Hightlights about myself */
 section {
   height: 200px;
   color: white;
@@ -124,7 +126,7 @@ footer {
 }
 
 
-
+/* Contact form */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
@@ -159,6 +161,7 @@ input[type=text], select, textarea {
     color: white;
   }
 
+  /* Icons */
   .fa {
     padding: 15px;
     font-size: 15px;
